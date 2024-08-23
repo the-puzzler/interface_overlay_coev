@@ -1,6 +1,6 @@
 from create_interface_summary_funcs import *
 
-reference_pdb_file = r'C:\Users\matte\OneDrive\Documents\aminoanalytica\pae\unzips\Q32K_2.result\Q32K_2.9484_relaxed_rank_001_alphafold2_multimer_v3_model_2_seed_000.pdb'
+reference_pdb_file = r'/file_path'
 print('Loading pdb')
 reference_atoms = parse_pdb(reference_pdb_file)
 print('Finding Interface Atoms')
